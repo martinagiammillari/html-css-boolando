@@ -14,6 +14,29 @@ body{
 
 /* COMMON */
 
+.header-container{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+     padding-right: 10px;
+     padding-top: 10px;
+}
+
+.logo{
+    max-height: 5px;
+    max-width: 8%;
+   
+}
+
 .product-card{
    
     width: 30%;
@@ -92,3 +115,34 @@ img:hover {
     bottom: 30px;
 }
 
+.footer-container{
+     background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.title-legal-info{
+    display: flex;
+   padding-left: 100px;
+   flex-direction: column;
+
+
+}
+.txt-little{
+    font-size: 0.8rem;
+}
+.legal-info{
+    display: flex;
+    
+}
+
+.social-indication{
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    position: relative;
+ right: 50px;
+ bottom: 40px;
+}
