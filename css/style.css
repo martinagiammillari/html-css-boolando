@@ -7,7 +7,39 @@
 img{
     max-width: 100%;
 }
-
 body{
-    background-color: aqua;
+
+    font-family: sans-serif;
+}
+
+/* COMMON */
+
+.card{
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bold{
+    font-weight: 600;
+}
+.red-text{
+    color: red;
+}
+.display-line{
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+    padding-top: 5px;
+}
+.line{
+    text-decoration: line-through;
 }
